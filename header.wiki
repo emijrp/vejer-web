@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     
     <meta name="twitter:title" content="{{{1}}}"/>
-    <meta name="keywords" content="%s, turismo, turismo en {{{1}}}, guia de {{{1}}}, que ver en {{{1}}}, historia de {{{1}}}, hoteles en {{{1}}}, donde comer en {{{1}}}"/>
+    <meta name="keywords" content="{{{1}}}, turismo, viajar, turismo en {{{1}}}, viajar {{{1}}}, guia turistica de {{{1}}}, monumentos de {{{1}}}, que ver en {{{1}}}, historia de {{{1}}}, hoteles en {{{1}}}, donde comer en {{{1}}}"/>
     <meta name="description" content="Una guía turística gratis y descargable con lo fundamental para conocer {{{1}}}. ¡No vayas a {{{1}}} sin ella!"/>
     <meta name="twitter:description" content="Una guía turística gratis y descargable en PDF con lo fundamental para conocer {{{1}}}. ¡No vayas a {{{1}}} sin ella!"/>
     <meta name="twitter:card" content="summary"/>

@@ -31,19 +31,19 @@ div.eltiempo{
     float: right;
     margin: 5px;
 }
+div.footer{
+    font-size: 80%;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
 
 a:link, a:visited{
     text-decoration: none;
 }
 a:hover, a:active{
     text-decoration: underline;
-}
-
-div.footer{
-    clear: both;
-    width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
 }
 
 img{

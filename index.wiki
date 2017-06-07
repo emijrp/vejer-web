@@ -4,7 +4,7 @@
 
 {{carrusel}}
 
-El municipio de '''Vejer de la Frontera''', situado sobre una elevación de 200 metros y a orillas del río Barbate, se encuentra en la parte sur de la provincia de Cádiz. Su población apenas supera los 12.000 habitantes. Te invitamos a descubrir la historia de Vejer, visitar sus [[#Monumentos|monumentos]], conocer [[#Biografías|su gente]], recorrer sus [[#map|calles]] y disfrutar de sus [[#Fiestas|fiestas]]. Navega por los distintos menús y páginas para acceder a la información de tu interés. 
+El municipio de '''Vejer de la Frontera''', situado sobre una elevación de 200 metros y a orillas del río Barbate, se encuentra en la parte sur de la provincia de Cádiz. Su población apenas supera los 12.000 habitantes. Te invitamos a descubrir la historia de Vejer, visitar sus [[#Monumentos|monumentos]], conocer [[#Biografías|su gente]], recorrer sus [[#map|calles]] y disfrutar de sus [[#Fiestas|fiestas]]. Navega por los distintos menús para acceder a la información de tu interés. 
 
 == Monumentos ==
 
@@ -13,20 +13,24 @@ Su centro histórico amurallado, que aún conserva el castillo y varias iglesias
 <div id="map" style="float: center;width: 100%;height: 420px;"></div>
 <script type="text/javascript">
     var places = [
-        ["Ayuntamiento", 36.253396, -5.962854], 
-        ["Castillo de Vejer", 36.252704, -5.963735], 
+        ["Ayuntamiento de Vejer", 36.253396, -5.962854], 
+        ["Castillo de Vejer", 36.252775, -5.963792], 
+        ["Iglesia Parroquial del Divino Salvador", 36.253972, -5.964362], 
+        ["Molinos de Viento", 36.246612, -5.965537], 
+        ["Oficina de Turismo de Vejer", 36.255390, -5.968052], 
+        ["Plaza de España", 36.253552, -5.962733], 
 
     ];
 </script>
 {{map|lat=36.253396|lon=-5.962854|zoom=16}}
 
-
-* '''Ayuntamiento''': 
-* '''Castillo de Vejer''': Se puede visitar de lunes a sábado de 10:00 a 14:00 y de 17:30 a 19:30h. Los domingos está cerrado.
+* '''[https://www.vejerdelafrontera.es Ayuntamiento]''': Junto a una espléndida fuente en la Plaza de España y flanqueado por el Arco de la Villa, este edificio blanco con un reloj y campanario sobrios, es la casa consistorial de los vejeriegos y vejeriegas.
+* '''[https://cadizpedia.wikanda.es/wiki/Castillo_de_Vejer_de_la_Frontera Castillo de Vejer]''': Ubicado en la zona más alta del casco histórico, podría catalogarse dentro del grupo denominado «castillos estratégicos menores» de la Baja Andalucía. Se puede visitar de lunes a sábado de 10:00 a 14:00 y de 17:30 a 19:30h. Los domingos está cerrado. {{recomendado}}
 * '''Casa del Mayorazgo''': 
-* ''' Iglesia Parroquial del Divino Salvador''':
-* '''Plaza de España''':
+* '''[https://cadizpedia.wikanda.es/wiki/Iglesia_del_Divino_Salvador_(Vejer_de_la_Frontera) Iglesia Parroquial del Divino Salvador]''': Se trata de una iglesia que combina los estilos mudéjar y gótico y que fue construida sobre una antigua mezquita.
+* '''La Cobijada''': {{recomendado}}
 * '''Molinos de Viento''': 
+* '''Plaza de España''':
 
 == Alojamiento ==
 {{eltiempo}}

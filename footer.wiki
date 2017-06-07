@@ -1,6 +1,8 @@
 <div class="footer">
 <hr/>
-Esta web incluye contenido original y también proveniente de [https://es.wikipedia.org/wiki/Vejer_de_la_Frontera Wikipedia], [https://cadizpedia.wikanda.es/wiki/Vejer_de_la_Frontera Cadizpedia] y [https://cadizpedia.wikanda.es/wiki/Vejer_de_la_Frontera OpenStreetMap]. La licencia de este sitio es [https://creativecommons.org/licenses/by-sa/3.0/deed.es Creative Commons BY-SA 3.0].
+Esta web incluye contenido original y también proveniente de [https://es.wikipedia.org/wiki/Vejer_de_la_Frontera Wikipedia], [https://cadizpedia.wikanda.es/wiki/Vejer_de_la_Frontera Cadizpedia] y [https://www.openstreetmap.org OpenStreetMap]. La licencia de este sitio es [https://creativecommons.org/licenses/by-sa/3.0/deed.es Creative Commons BY-SA 3.0].
+
+Más guías turísticas: [http://elpuerto.com.es El Puerto de Santa María]
 </div>
 </div>
 </body>
