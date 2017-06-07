@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <title>{{{1}}}</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    
+    <meta name="twitter:title" content="{{{1}}}"/>
+    <meta name="keywords" content="%s, turismo, turismo en {{{1}}}, guia de {{{1}}}, que ver en {{{1}}}, historia de {{{1}}}, hoteles en {{{1}}}, donde comer en {{{1}}}"/>
+    <meta name="description" content="Una guía turística gratis y descargable con lo fundamental para conocer {{{1}}}. ¡No vayas a {{{1}}} sin ella!"/>
+    <meta name="twitter:description" content="Una guía turística gratis y descargable en PDF con lo fundamental para conocer {{{1}}}. ¡No vayas a {{{1}}} sin ella!"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:domain" content="http://{{{2}}}"/>
+    <meta name="twitter:creator" content="{{{2}}}"/>
+    <meta name="twitter:image:src" content="images/card.jpg"/>
+    
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="lib/jquery/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="lib/leaflet/leaflet.js" type="text/javascript"></script>
+    <script src="lib/sorttable.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="main">
+<div class="header">
+<h1 class="header-title">[[./index|<span style="color: white;">{{{1}}}</span>]]</h1>
+</div>
+

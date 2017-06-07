@@ -1,0 +1,8 @@
+<div id="sections" class="sections">
+{{button|1=#sections|2=Portada}}
+{{button|1=#Monumentos|2=Monumentos}}
+{{button|1=#Alojamiento|2=Alojamiento}}
+{{button|1=#Comida|2=Comida}}
+{{button|1=#Biografías|2=Biografías}}
+{{button|1=#Fiestas|2=Fiestas}}
+</div>

@@ -1,0 +1,54 @@
+{{header|1=Vejer de la Frontera|2=vejer.com.es}}
+
+{{secciones}}
+
+{{carrusel}}
+
+El municipio de '''Vejer de la Frontera''', situado sobre una elevación de 200 metros y a orillas del río Barbate, se encuentra en la parte sur de la provincia de Cádiz. Su población apenas supera los 12.000 habitantes. Te invitamos a descubrir la historia de Vejer, visitar sus [[#Monumentos|monumentos]], conocer [[#Biografías|su gente]], recorrer sus [[#map|calles]] y disfrutar de sus [[#Fiestas|fiestas]]. Navega por los distintos menús y páginas para acceder a la información de tu interés. 
+
+== Monumentos ==
+
+Su centro histórico amurallado, que aún conserva el castillo y varias iglesias significativas, fue declarado conjunto histórico-artístico en el año 1976. Vejer forma parte de la conocida como Asociación de Los Pueblos Más Bonitos de España.
+
+<div id="map" style="float: center;width: 100%;height: 420px;"></div>
+<script type="text/javascript">
+    var places = [
+        ["Ayuntamiento", 36.253396, -5.962854], 
+        ["Castillo de Vejer", 36.252704, -5.963735], 
+
+    ];
+</script>
+{{map|lat=36.253396|lon=-5.962854|zoom=16}}
+
+
+* '''Ayuntamiento''': 
+* '''Castillo de Vejer''': Se puede visitar de lunes a sábado de 10:00 a 14:00 y de 17:30 a 19:30h. Los domingos está cerrado.
+* '''Casa del Mayorazgo''': 
+* ''' Iglesia Parroquial del Divino Salvador''':
+* '''Plaza de España''':
+* '''Molinos de Viento''': 
+
+== Alojamiento ==
+{{eltiempo}}
+Si desea que su '''hotel, hostal o pensión''' en Vejer de la Frontera aparezca en esta página, contáctenos.
+
+== Comida ==
+
+Si desea que su '''bar, cervecería o restaurante''' en Vejer de la Frontera aparezca en esta página, contáctenos.
+
+== Biografías ==
+
+Por desarrollar.
+
+== Fiestas ==
+
+* '''Carnaval de Vejer''':
+* '''Semana Santa de Vejer''':
+* '''Feria de Primavera''':
+
+== Descarga ==
+
+Puede descargar esta guía y llevarla en el móvil para consultarla en cualquier momento, incluso si se queda sin cobertura.
+
+__NOTOC__
+{{footer}}

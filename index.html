@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <title>Vejer de la Frontera</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+    <meta name="twitter:title" content="Vejer de la Frontera"/>
+    <meta name="keywords" content="%s, turismo, turismo en Vejer de la Frontera, guia de Vejer de la Frontera, que ver en Vejer de la Frontera, historia de Vejer de la Frontera, hoteles en Vejer de la Frontera, donde comer en Vejer de la Frontera"/>
+    <meta name="description" content="Una guía turística gratis y descargable con lo fundamental para conocer Vejer de la Frontera. ¡No vayas a Vejer de la Frontera sin ella!"/>
+    <meta name="twitter:description" content="Una guía turística gratis y descargable en PDF con lo fundamental para conocer Vejer de la Frontera. ¡No vayas a Vejer de la Frontera sin ella!"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:domain" content="http://vejer.com.es"/>
+    <meta name="twitter:creator" content="vejer.com.es"/>
+    <meta name="twitter:image:src" content="images/card.jpg"/>
+
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="lib/jquery/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="lib/leaflet/leaflet.js" type="text/javascript"></script>
+    <script src="lib/sorttable.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="main">
+<div class="header">
+<h1 class="header-title"><a href="./index.html"><span style="color: white;">Vejer de la Frontera</span></a></h1>
+</div>
+
+
+<div id="sections" class="sections">
+<a class="mw-ui-button mw-ui-blue" href="#sections">Portada</a>
+
+<a class="mw-ui-button mw-ui-blue" href="#Monumentos">Monumentos</a>
+
+<a class="mw-ui-button mw-ui-blue" href="#Alojamiento">Alojamiento</a>
+
+<a class="mw-ui-button mw-ui-blue" href="#Comida">Comida</a>
+
+<a class="mw-ui-button mw-ui-blue" href="#Biografías">Biografías</a>
+
+<a class="mw-ui-button mw-ui-blue" href="#Fiestas">Fiestas</a>
+
+</div>
+
+
+<!-- -->
+
+
+<p>El municipio de <b>Vejer de la Frontera</b>, situado sobre una elevación de 200 metros y a orillas del río Barbate, se encuentra en la parte sur de la provincia de Cádiz. Su población apenas supera los 12.000 habitantes. Te invitamos a descubrir la historia de Vejer, visitar sus <a href="#Monumentos">monumentos</a>, conocer <a href="#Biografías">su gente</a>, recorrer sus <a href="#map">calles</a> y disfrutar de sus <a href="#Fiestas">fiestas</a>. Navega por los distintos menús y páginas para acceder a la información de tu interés. </p>
+
+<h2 id="Monumentos">Monumentos</h2>
+
+<p>Su centro histórico amurallado, que aún conserva el castillo y varias iglesias significativas, fue declarado conjunto histórico-artístico en el año 1976. Vejer forma parte de la conocida como Asociación de Los Pueblos Más Bonitos de España.</p>
+
+<div id="map" style="float: center;width: 100%;height: 420px;"></div>
+<script type="text/javascript">
+    var places = [
+        ["Ayuntamiento", 36.253396, -5.962854], 
+        ["Castillo de Vejer", 36.252704, -5.963735], 
+
+    ];
+</script>
+<script type="text/javascript">
+    var map = L.map('map').setView([36.253396, -5.962854], 16);
+    mapLink = 
+        '<a href="https://openstreetmap.org">OpenStreetMap</a>';
+    L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; ' + mapLink + ' Contributors',
+        maxZoom: 20,
+        }).addTo(map);
+
+    for (var i = 0; i < places.length; i++) {
+        marker = new L.marker([places[i][1],places[i][2]])
+            //.bindPopup('<b>' + places[i][0] + '</b>' + '<br/><img src="' + places[i][3] + '"/ width="200px">')
+            .bindPopup('<b>' + places[i][0] + '</b>')
+            .addTo(map);
+    }
+</script>
+
+<p>Descargar coordenadas</p>
+
+
+
+<ul><li><b>Ayuntamiento</b>: </li><li><b>Castillo de Vejer</b>: Se puede visitar de lunes a sábado de 10:00 a 14:00 y de 17:30 a 19:30h. Los domingos está cerrado.</li><li><b>Casa del Mayorazgo</b>: </li><li><b> Iglesia Parroquial del Divino Salvador</b>:</li><li><b>Plaza de España</b>:</li><li><b>Molinos de Viento</b>: </li></ul>
+
+<h2 id="Alojamiento">Alojamiento</h2>
+<div class="eltiempo">
+<div id="c_95b1c1edc83f2ea5503fa45866fae091" class="normal"></div><script type="text/javascript" src="https://www.eltiempo.es/widget/widget_loader/95b1c1edc83f2ea5503fa45866fae091"></script>
+</div>
+
+<p>Si desea que su <b>hotel, hostal o pensión</b> en Vejer de la Frontera aparezca en esta página, contáctenos.</p>
+
+<h2 id="Comida">Comida</h2>
+
+<p>Si desea que su <b>bar, cervecería o restaurante</b> en Vejer de la Frontera aparezca en esta página, contáctenos.</p>
+
+<h2 id="Biografías">Biografías</h2>
+
+<p>Por desarrollar.</p>
+
+<h2 id="Fiestas">Fiestas</h2>
+
+<ul><li><b>Carnaval de Vejer</b>:</li><li><b>Semana Santa de Vejer</b>:</li><li><b>Feria de Primavera</b>:</li></ul>
+
+<h2 id="Descarga">Descarga</h2>
+
+<p>Puede descargar esta guía y llevarla en el móvil para consultarla en cualquier momento, incluso si se queda sin cobertura.</p>
+
+<p></p>
+<div class="footer">
+<hr/>
+<p>Esta web incluye contenido original y también proveniente de <a href="https://es.wikipedia.org/wiki/Vejer_de_la_Frontera">Wikipedia</a>, <a href="https://cadizpedia.wikanda.es/wiki/Vejer_de_la_Frontera">Cadizpedia</a> y <a href="https://cadizpedia.wikanda.es/wiki/Vejer_de_la_Frontera">OpenStreetMap</a>. La licencia de este sitio es <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.es">Creative Commons BY-SA 3.0</a>.</p>
+</div>
+</div>
+</body>
+</html>

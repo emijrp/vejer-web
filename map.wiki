@@ -1,0 +1,19 @@
+<script type="text/javascript">
+    var map = L.map('map').setView([{{{lat}}}, {{{lon}}}], {{{zoom}}});
+    mapLink = 
+        '<a href="https://openstreetmap.org">OpenStreetMap</a>';
+    L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; ' + mapLink + ' Contributors',
+        maxZoom: 20,
+        }).addTo(map);
+
+    for (var i = 0; i < places.length; i++) {
+        marker = new L.marker([places[i][1],places[i][2]])
+            //.bindPopup('<b>' + places[i][0] + '</b>' + '<br/><img src="' + places[i][3] + '"/ width="200px">')
+            .bindPopup('<b>' + places[i][0] + '</b>')
+            .addTo(map);
+    }
+</script>
+
+Descargar coordenadas
