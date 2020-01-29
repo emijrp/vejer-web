@@ -1,2 +1,3 @@
 # vejer-web
-Web turística sobre Vejer de la Frontera
+
+Web turística sobre Vejer de la Frontera.
